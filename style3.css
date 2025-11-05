@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* div {
+  border: var(--guideline-color);
+} */
+html > body {
+  font-size: 14px;
+  font-family: arial;
+  color: var(--t-color);
+}
+a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  justify-items: center;
+}
+a:hover {
+  color: salmon;
+}
+:root {
+  --mbar-color: #1ba0e2;
+  --fter-color: #646464;
+  --m-color: #ff5722;
+  --guideline-color: solid 2px lightpink;
+  --t-color: #333333;
+}
+.max {
+  width: 1800px;
+  margin: 0 auto;
+}
+.mid {
+  width: 1120px;
+  margin: 0 auto;
+}
+.header {
+  background-color: var(--mbar-color);
+  height: 4rem;
+  padding-top: 1rem;
+}
+.menu {
+  font-size: 1.5rem;
+}
+.menu > ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.banner {
+  background-image: url(../images/img2/HeaderBanner_1920x400.png);
+  height: 400px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tos {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 15px 25px;
+  border-radius: 8px;
+}
+.tos > h1 {
+  color: white;
+}
+.tour-s {
+  text-align: center;
+  padding: 20px;
+  font-size: 2rem;
+}
+.tour-c > h3,
+p {
+  text-align: left;
+  padding: 5px 5px 5px;
+}
+.tour-s> h2{
+  color: var(--fter-color);
+}
+.tour-l {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.tour-c {
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+.price, .price2{
+  color: var(--m-color);
+  font-size: 2rem;
+  font-weight: bold;
+}
+.price2{
+  margin-top:15px ;
+}
+.tour-l2 {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.tour-c2 {
+  grid-template-columns: repeat(4, 1fr);
+  border: 1px solid #ccc;
+  position: relative;
+}
+.tour-c2 img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.tour-c2 p {
+  color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  text-align: center;
+  font-size: 2rem;
+  overflow: hidden;
+}
+.f_content p,
+h2 {
+  color: white;
+}
+footer{
+  margin-top: 2rem;
+  background-color: var(--t-color);
+}
+.f_content {
+  background-color: var(--t-color);
+  display: flex;
+  padding: 10px 20px;
+  /* justify-content: space-between; */
+}
+.about,
+.form {
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+}
+/* .foot{  
+  display: flex;
+  justify-content: space-around;
+} */
+.form input{
+  padding: 5px;
+  width: 100%;
+  margin-top: 8px;
+  border: var(--fter-color);
+}
+.form button{
+padding: 5px;
+width: 100%;
+border: none;
+margin-top: 8px;
+background-color: var(--mbar-color);
+}
